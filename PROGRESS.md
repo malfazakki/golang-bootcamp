@@ -5,9 +5,9 @@
 ---
 
 ## 📌 Status Terkini
-- **Modul Aktif**: Modul 0 — Persiapan
-- **Topik Terakhir**: Belum dimulai
-- **Terakhir Diperbarui**: -
+- **Modul Aktif**: Modul 1 — Fondasi
+- **Topik Terakhir**: Modul 0 — Persiapan & Toolchain (Selesai, Skor Latihan: 95/100)
+- **Terakhir Diperbarui**: 2026-11-15
 
 ---
 
@@ -16,17 +16,17 @@
 
 | Tanggal Target | Topik | Tahap | Status | Catatan / Fokus |
 | :--- | :--- | :--- | :--- | :--- |
-| *Contoh: 2026-11-16* | *Pointer vs Value Semantics* | *H+1* | *Menunggu* | *Review mutasi struct* |
+| 2026-11-16 | Flag `-o` & sintaks argumen `go build` | H+1 | Menunggu | Review sintaks `go build -o <path> <pkg>` |
 
 ---
 
 ## 📊 Ringkasan Pemahaman Materi
 
 ### Modul 0 — Persiapan
-- [ ] Instalasi Go, GOPATH vs Go Modules, `go mod init`
-- [ ] Tooling dasar: `go run`, `go build`, `go fmt`, `go vet`
-- [ ] Development tools: `goimports`, `gopls`, Delve debugger (`dlv`)
-- [ ] "Hello World" & struktur dasar
+- [x] Instalasi Go, GOPATH vs Go Modules, `go mod init`
+- [x] Tooling dasar: `go run`, `go build`, `go fmt`, `go vet`
+- [x] Development tools: `goimports`, `gopls`, Delve debugger (`dlv`)
+- [x] "Hello World" & struktur dasar
 
 ### Modul 1 — Fondasi
 - [ ] Variabel, tipe data, zero value, konstanta
@@ -102,4 +102,15 @@
 ---
 
 ## 📝 Catatan Sesi Historis
-*(Log sesi per pertemuan akan dicatat di sini)*
+
+### [2026-11-15] - Modul 0: Persiapan & Toolchain Go
+- **Hasil Latihan**: Skor rata-rata 95/100 (Soal 1: 100, Soal 2: 85, Soal 3: 100)
+- **Kekuatan**:
+  - Paham struktur dasar Go (bracket formatting, Automatic Semicolon Insertion).
+  - Paham alasan teknis compiler melarang unused imports.
+  - Memahami inisialisasi module modern (`go mod init`) dan recursive analysis (`./...`).
+  - Mengerti perbedaan compiler check vs `go vet` semantic check pada string formatting `Printf`.
+- **Area Perbaikan**:
+  - Ingat selalu flag `-o` saat menentukan output binary destination pada `go build` (bukan langsung menulis path setelah perintah build).
+- **Rekomendasi Sesi Berikutnya**:
+  - Masuk ke **Modul 1 — Fondasi** (Variabel, tipe data, zero value, konstanta, control flow, functions, multiple return, defer, error handling dasar).

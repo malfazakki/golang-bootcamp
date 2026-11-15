@@ -13,7 +13,7 @@ Ikuti alur terstruktur ini setiap kali sesi belajar baru dimulai:
 ## Prosedur Sesi
 
 ### 1. Pre-Session Check (Spaced Repetition & Status)
-1. Buka dan baca file `PROGRESS.md`.
+1. Buka dan baca file `PROGRESS.md`. Jika file belum ada tetapi terdapat `PROGRESS.template.md`, otomatis salin `PROGRESS.template.md` menjadi `PROGRESS.md`.
 2. Cek tabel **Antrean Spaced Repetition**:
    - Apakah ada topik yang jatuh tempo review (H+1, H+3, H+7, atau H+14)?
    - **Jika ADA**: Alokasikan 5–10 menit pertama untuk review topik tersebut dengan 1–3 soal cepat. Jangan lanjut ke materi baru sebelum review selesai atau user meminta skip.
@@ -40,7 +40,10 @@ Berikan 3 soal bertingkat:
 - **Medium**: Penerapan / lengkapi kode / tulis fungsi kecil.
 - **Hard**: Analisis bug / debugging / edge case.
 
-> **ATURAN**: Jangan sertakan kunci jawaban bersamaan dengan soal. Tunggu user menjawab. Sertakan kriteria sukses / test cases agar user dapat memvalidasi sendiri.
+> **ATURAN PEMBERIAN SOAL (SCAFFOLDING)**:
+> 1. **Berikan soal SATU PER SATU** (mulai dari Easy). Jangan memberikan semua soal sekaligus.
+> 2. Soal berikutnya baru diberikan setelah jawaban soal sebelumnya dievaluasi dan dipahami tuntas oleh user.
+> 3. Jangan sertakan kunci jawaban bersamaan dengan soal. Tunggu user menjawab. Sertakan kriteria sukses / test cases agar user dapat memvalidasi sendiri.
 
 ### 4. Koreksi Jawaban (§7 AGENTS.md)
 - Berikan penilaian objektif (Benar / Sebagian / Salah, skor 0–100).

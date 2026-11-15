@@ -14,7 +14,29 @@ Bootcamp ini mengadopsi prinsip pembelajaran kognitif modern:
 
 ---
 
-## 🗺️ Silabus & Kurikulum
+## 🚀 Cara Menggunakan Template Ini (Untuk Siapapun Yang Ingin Belajar)
+
+Repositori ini dapat Anda gunakan sebagai **template belajar mandiri interaktif**:
+
+1. **Gunakan Template Ini**:
+   * Klik tombol **"Use this template"** di pojok kanan atas repositori GitHub ini (atau clone ke lokal):
+     ```bash
+     git clone <url-repo-anda>
+     cd golang-bootcamp
+     ```
+2. **Inisialisasi Tracker Progres Pribadi**:
+   * Salin template progres kosong menjadi file tracker aktif Anda:
+     ```bash
+     cp PROGRESS.template.md PROGRESS.md
+     ```
+3. **Buka di Google Antigravity / AI Coding Environment**:
+   * Buka folder project ini di **Google Antigravity** (atau IDE berbasis agen AI).
+4. **Mulai Belajar**:
+   * Cukup ketik perintah berikut di chat:
+     > **`"mulai sesi"`** atau **`"/bootcamp-session mulai sesi modul 0"`**
+   * AI Mentor akan otomatis membaca silabus, mengajarkan konsep, memberikan latihan soal bertingkat satu per satu, dan memperbarui [PROGRESS.md](PROGRESS.md) Anda di akhir sesi!
+
+---
 
 | Modul | Topik Utama | Cakupan Materi |
 | :---: | :--- | :--- |
